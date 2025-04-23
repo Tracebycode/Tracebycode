@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Abhishek Barik
 
-🎓 Computer Engineering Student at D.Y. Patil University, Ambi  
+🎓 Computer Engineering Student at D.Y. Patil Technical Campus,Pune. 
 💻 Passionate about building apps, solving real-world problems & exploring tech  
 🚀 Future-focused | Research-driven | Always Learning
 
