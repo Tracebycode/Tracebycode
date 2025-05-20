@@ -1,3 +1,5 @@
+![Let's code it](./lets_code_it_typing.gif)
+
 # 👋 Hi, I'm Abhishek Barik
 
 🎓 Computer Engineering Student at D.Y. Patil Technical Campus,Pune. 
