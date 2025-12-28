@@ -1,152 +1,131 @@
-# 📱 Smart Task Manager — Flutter App
+# 🚀 Task Management System – AI-Powered (Flutter + Node.js + PostgreSQL)
 
-A productivity application to create, classify, edit, manage and track tasks — built as part of the Navicon InfraProjects Full-Stack Assessment.
+### 📌 Internship Assessment – Hybrid Backend + Flutter App
 
-This app connects to a backend (Node.js + PostgreSQL) to provide real-time task management with categories, priority levels, assignment, due dates, auto-classification, and change history.
-
----
-
-## 🧑‍💻 Features
-
-| Feature                                    | Status |
-| ------------------------------------------ | ------ |
-| Create / Edit / Delete Tasks               | ✅      |
-| Auto-classification using backend ML logic | ✅      |
-| Task history tracking (update timeline)    | ✅      |
-| Offline indicator (network monitoring)     | ✅      |
-| Filtering by Category, Priority, Status    | ✅      |
-| Sort by Due Date / Priority                | ✅      |
-| Search tasks                               | ✅      |
-| Pull-to-refresh                            | ✅      |
-| Error handling & snackbars                 | ✅      |
+A smart task automation system that **reads task descriptions**, **auto-classifies** them using NLP rules (category, priority, assigned person, dates), and provides **action suggestions**.
+Includes **Task CRUD**, **Audit History**, **Soft Delete**, **Stats Dashboard**, and **Flutter Frontend UI**.
 
 ---
 
-## 🛠️ Tech Stack
+## 🧩 Project Overview
 
-| Layer    | Technology                                                                |
-| -------- | ------------------------------------------------------------------------- |
-| Frontend | Flutter (Dart), Riverpod (State Management), Dio (Networking), Material 3 |
-| Backend  | Node.js, Express.js                                                       |
-| Database | PostgreSQL                                                                |
-| Hosting  | Render (Backend), Flutter – locally                                       |
+| Component      | Tech Used                      | Description                                                         |
+| -------------- | ------------------------------ | ------------------------------------------------------------------- |
+| **Frontend**   | Flutter (Riverpod + REST API)  | Create, view, edit, delete tasks & use AI-assisted classification   |
+| **Backend**    | Node.js + Express + PostgreSQL | REST API, validation, classification logic, soft delete, audit logs |
+| **Database**   | PostgreSQL + JSONB             | Relational + JSON based extracted entities & suggestions            |
+| **Deployment** | Render.com                     | Live production deployment                                          |
 
 ---
 
-## 🧰 Folder Structure
+## 🧠 Key Features
+
+✔ Auto AI-classification of tasks (category, priority, actions, suggested actions, dates, assigned user)
+✔ CRUD Operations (Create, Update, Soft Delete, Restore)
+✔ Audit Logging / Task History
+✔ Stats API → Pending, Completed, Deleted Count
+✔ Clean DB connection pooling (production-safe)
+✔ Fully tested classification logic (Jest)
+✔ Flutter responsive UI
+
+---
+
+## 📂 Repository Structure
 
 ```
-lib/
- ├─ app/
- │   ├─ app.dart
- │   ├─ router.dart
- │   └─ bootstrap.dart
- ├─ core/
- │   ├─ constants/api_endpoints.dart
- │   ├─ network/dio_client.dart
- │   └─ utils/offline_banner.dart
- ├─ data/
- │   ├─ datasources/remote/task_api.dart
- │   ├─ models/task_model.dart
- │   └─ repositories/task_repository.dart
- ├─ state/
- │   ├─ controllers/task_controller.dart
- │   ├─ providers/*.dart
- ├─ ui/
- │   ├─ screens/dashboard/dashboard_screen.dart
- │   ├─ screens/create_task/create_task_sheet.dart
- │   └─ widgets/
- └─ main.dart
-
+/ (root)
+ ├── backend/              # Node.js + PostgreSQL API
+ │   ├── src/
+ │   ├── tests/
+ │   ├── package.json
+ │   └── README.md         # Backend detailed README
+ │
+ ├── frontend/             # Flutter Mobile App
+ │   ├── lib/
+ │   ├── pubspec.yaml
+ │   └── README.md         # Frontend detailed README
+ │
+ └── README.md             # <- THIS FILE (root overview)
 ```
 
 ---
 
-## 🚀 How to Run — Flutter App
+## 🚦 Quick Start – Run Both Apps
 
-### 1️⃣ Install Dependencies
+### 🔧 1️⃣ Clone Repo
 
 ```bash
+git clone https://github.com/abhishek-navicon/task-management.git
+cd task-management
+```
+
+### 🖥 2️⃣ Backend Setup
+
+```bash
+cd backend
+npm install
+cp .env.example .env      # add DB credentials
+npm start
+```
+
+### 📱 3️⃣ Flutter App Setup
+
+```bash
+cd ../frontend/smart_task_app
 flutter pub get
-```
-
-### 2️⃣ Update API URL
-
-Edit `lib/data/datasources/task_api.dart`
-
-```dart
-static const baseUrl = "https://task-management-navicon-infraprojects-2.onrender.com/api/v1";
-```
-
-### 3️⃣ Run App
-
-```bash
 flutter run
 ```
 
 ---
 
-## 🧪 API Reference (Backend Summary)
+## 🌍 Live Demo Links
 
-| Method   | Endpoint     | Description               |
-| -------- | ------------ | ------------------------- |
-| `POST`   | `/tasks`     | Create task               |
-| `GET`    | `/tasks`     | List tasks                |
-| `GET`    | `/tasks/:id` | Fetch full task + history |
-| `PATCH`  | `/tasks/:id` | Update task               |
-| `DELETE` | `/tasks/:id` | Soft delete               |
+| Environment      | URL                                                                                                                                                                      |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 🟢 Backend (API) | [https://task-management-navicon-infraprojects-2.onrender.com/api/v1/tasks](https://task-management-navicon-infraprojects-2.onrender.com/api/v1/tasks)                   |
+| 🟢 Classify API  | [https://task-management-navicon-infraprojects-2.onrender.com/api/v1/tasks/classify](https://task-management-navicon-infraprojects-2.onrender.com/api/v1/tasks/classify) |
+| 🟢 Frontend APK  | *(Provide link if deployed / APK uploaded)*                                                                                                                              |
 
-
----
-
-## 🖼 Screenshots
-
-| Dashboard    | Create Task                                     | Edit Sheet                                    |
-|--------------|-------------------------------------------------|-----------------------------------------------|
-| ![dash](./smart_task_app/screenshots/dashboard.jpeg) | ![create](./smart_task_app/screenshots/create_tasksheet.jpeg) | ![edit](./smart_task_app/screenshots/Update_Tasksheet.jpeg) |
-
+⚠️ Backend on free Render may sleep → first request may take 20-30s.
 
 ---
 
-## 🧠 Architecture Decisions
+## 🧪 API Quick Test Examples
 
-### Why classify end Point first
-* user req to classify his task and then able to override
-* its help auto classification with needed overriding
-* Then on final submit user can save to the db
+```http
+POST /api/v1/tasks/classify
+{
+  "title": "Backup database",
+  "description": "Fix login bug and assign technician now"
+}
 
-
-### Why Riverpod?
-
-* More predictable state flow → AsyncNotifier fits CRUD APIs best
-* Auto UI refresh on API events
-* Cleaner code compared to Provider / Bloc for small apps
-
-### Why Dio?
-
-* Interceptors
-* Error handling
-* Better logging
-
-### Offline Design
-
-* We **only show indicator** → disable actions in offline mode
-* ❌ No auto offline syncing (not required per assessment)
+GET  /api/v1/tasks
+PATCH /api/v1/tasks/:id
+DELETE /api/v1/tasks/:id
+GET  /api/v1/tasks/:id
+GET  /api/v1/tasks/stats
+```
 
 ---
 
-## ⏭️ What I’d Improve If Given More Time
+## 🧱 System Architecture
 
-| Possible Next Improvements                          |
-| --------------------------------------------------- |
-| Dark mode toggle                                    |
-| Optimistic UI update (delete instantly, sync later) |
-| Local storage (SQLite) for offline task caching     |
-| Push notifications / reminders                      |
-| Searching with Highlighting                         |
-| While being offline field need to disable to have better ux experience|
+```
+Flutter UI  →  REST API  → PostgreSQL
+                    ↓
+              Classification Engine
+                (regex + NLP-rules)
+```
+
 ---
 
+## 🧑‍💻 Author
 
+**Abhishek Barik**
+Computer Engineering – DYPTC
+💼 GitHub: *[update your link](https://github.com/Tracebycode)*
+📧 Email: *abhishekbarik974@gmail.com*
+
+---
 
 
