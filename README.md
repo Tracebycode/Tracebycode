@@ -103,12 +103,18 @@ flutter run
 
 | Dashboard    | Create Task                                     | Edit Sheet                                    |
 |--------------|-------------------------------------------------|-----------------------------------------------|
-| ![dash](../screenshots/create_tasksheet.jpeg) | ![create](../screenshots/create_tasksheet.jpeg) | ![edit](../screenshots/Update_Tasksheet.jpeg) |
+| ![dash](./smart_task_app/screenshots/dashboard.jpeg) | ![create](./smart_task_app/screenshots/create_tasksheet.jpeg) | ![edit](./smart_task_app/screenshots/Update_Tasksheet.jpeg) |
 
 
 ---
 
 ## 🧠 Architecture Decisions
+
+### Why classify end Point first
+* user req to classify his task and then able to override
+* its help auto classification with needed overriding
+* Then on final submit user can save to the db
+
 
 ### Why Riverpod?
 
@@ -137,7 +143,8 @@ flutter run
 | Optimistic UI update (delete instantly, sync later) |
 | Local storage (SQLite) for offline task caching     |
 | Push notifications / reminders                      |
-
+| Searching with Highlighting                         |
+| While being offline field need to disable to have better ux experience|
 ---
 
 
