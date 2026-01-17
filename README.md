@@ -71,8 +71,7 @@ I believe:
 ## 📫 Connect With Me
 
 📧 Email: abhishek.barik.work@gmail.com  
-🔗 LinkedIn: *(add link here)*  
-🧑‍💻 Portfolio: *(add link if available)*  
+🔗 LinkedIn: *https://www.linkedin.com/in/abhishek-barik-735a911b1/*  
 
 ---
 
