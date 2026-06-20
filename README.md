@@ -1,78 +1,128 @@
-# 👨‍💻 Abhishek Barik — Backend & System Engineer
+# 👋 Hi, I'm Abhishek Barik
 
-🚀 Passionate about building scalable backend systems, high-performance APIs, and reliable cloud-ready infrastructure.  
-I love solving real-world problems through systems design, automation, database engineering, and backend development.
+Backend-focused Computer Engineering student passionate about building scalable systems, APIs, and backend infrastructure.
 
----
-
-## 🧠 What I Do
-
-- 🏗️ Backend Development — RESTful APIs, microservices, authentication, async jobs
-- 🗄️ Databases — PostgreSQL, Supabase, MySQL, MongoDB, Redis
-- ☁️ Systems Engineering — CI/CD pipelines, Linux servers, Docker, cloud deployments
-- 🧪 Testing & Quality — Unit testing, load testing, API validation
-- 🔒 Security & Reliability — Logging, monitoring, rate-limiting, API key security
+Currently pursuing B.Tech in Computer Engineering at D.Y. Patil Technical Campus, Pune (CGPA: 9.08) and actively exploring backend architecture, PostgreSQL internals, distributed systems, and high-performance software engineering.
 
 ---
 
-## 🏁 Core Tech Stack
+## 🚀 Current Focus
 
-| Category | Tools |
-|----------|-------|
-| Programming | JavaScript, TypeScript, Python |
-| Backend Frameworks | Node.js (Express, Fastify), Python (FastAPI, Django) |
-| Databases | PostgreSQL, Supabase, MongoDB, Redis |
-| DevOps & Infra | Docker, Render, Railway, GitHub Actions, Nginx |
-| Tools | Postman, Insomnia, Git, Linux, Zod/Pydantic validation |
+* Building a Distributed Job Queue Engine in TypeScript
+* Exploring Redis-backed worker orchestration
+* Learning PostgreSQL indexing, transactions, and query optimization
+* Preparing for Backend & Software Engineering roles
 
 ---
 
-## 🧩 Highlights & What I’ve Built
+## 🛠️ Tech Stack
 
-- 🧠 **Smart Task Manager Backend** – Auto-classification engine, audit logging, task workflows  
-- 🔁 **CI/CD Automation** – Auto deploy backend to cloud using GitHub Actions  
-- 🛡️ **Secure APIs** – Token-based auth, rate-limit, schema validation  
-- 📊 **Database Architecture** – Normalized schema design, performance-focused queries  
+### Languages
+
+* JavaScript
+* TypeScript
+* Python
+* C++
+
+### Backend
+
+* Node.js
+* Express.js
+* REST APIs
+* JWT Authentication
+* RBAC
+* Zod Validation
+* Jest
+
+### Databases
+
+* PostgreSQL
+* Supabase
+* SQLite
+
+### Systems & Architecture
+
+* Data Modeling
+* Offline Synchronization
+* Job Queues
+* Retry Strategies
+* Dead Letter Queues
+* Connection Pooling
+
+### Tools
+
+* Git
+* GitHub
+* Postman
+* Docker
+* EC2
+* Render
 
 ---
 
-## 🧱 Backend Philosophy
+## 📌 Featured Projects
 
-> Clean code ⚡ Scalable systems ⚡ API-first design ⚡ Automation everywhere ⚡ Logs never lie
+### 🏥 ASHA-EHR Backend (SIH Finalist)
 
-I believe:
-- If a system breaks at scale → it was never engineered, only written
-- Documentation is part of the product
-- Testing is not optional
-- A backend must be invisible — but powerful
+Offline-first healthcare workflow backend built using Node.js and PostgreSQL.
 
----
+**Highlights**
 
-## 📂 Featured Projects
-
-| Name | Description | Tech |
-|------|-------------|------|
-| 🧠 Smart Task Manager | Auto-classifying task system with logs & history | Node.js, PostgreSQL, Docker |
-| 🛰️ IoT Cloud API | Sensor data ingestion + analytics API | FastAPI, MQTT, PostgreSQL |
-| 🏢 CI/CD Infra Setup | GitHub pipeline + Docker deploy | Docker, GitHub Actions, Render |
-
-👉 _More projects pinned below_
+* JWT Authentication & RBAC
+* Family & Health Record Management
+* Offline Synchronization Workflows
+* PostgreSQL Data Modeling
+* REST API Architecture
 
 ---
 
-## 🌍 Deployments
+### 🔁 Distributed Job Queue Engine
 
-- Render — Full backend deployment pipeline
-- Supabase — DB hosting + schema migrations
-- GitHub Actions — Auto build & deploy
+A TypeScript job processing engine inspired by modern queue architectures.
+
+**Features**
+
+* Delayed Jobs
+* Retry Policies
+* Exponential Backoff
+* Dead Letter Queues
+* Worker Recovery
+* Scheduler Architecture
+
+---
+
+### 📋 Task Management Backend
+
+Backend service featuring:
+
+* Audit Logging
+* Auto Classification
+* Pagination & Filtering
+* Soft Deletes
+* Layered Architecture
+* PostgreSQL + Express.js
+
+---
+
+## 🏆 Achievements
+
+* Smart India Hackathon (SIH) Finalist
+* Technical Head, Developer Student Club (DSC)
+* 9.08 CGPA
+* HackerRank: 5★ Python, 4★ C++
+* NPTEL Certifications:
+
+  * Programming in Java
+  * Python for Data Science
+  * Cloud Computing
 
 ---
 
 ## 📫 Connect With Me
 
-📧 Email: abhishek.barik.work@gmail.com  
-🔗 LinkedIn: *https://www.linkedin.com/in/abhishek-barik-735a911b1/*  
+* LinkedIn: https://www.linkedin.com/in/abhishek-barik-735a911b1/
+* Email: [abhishekbarik974@gmail.com](mailto:abhishekbarik974@gmail.com)
 
 ---
 
-### ⭐ If you like my work, feel free to star a repo — it keeps me building :)
+> Interested in Backend Engineering, Distributed Systems, Infrastructure, and High-Performance Software.
