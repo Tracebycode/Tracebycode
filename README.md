@@ -17,6 +17,12 @@ Building reliable backend systems, distributed services, and cloud-native applic
 
 ---
 
+## 📊 GitHub Dashboard
+
+<p align="center">
+  <img src="./github-metrics.svg" alt="GitHub Metrics" width="100%">
+</p>
+
 ## Engineering Philosophy
 
 I enjoy building systems that continue to work long after the API request has returned. My interests include distributed systems, background processing, cloud infrastructure, and production software engineering.
