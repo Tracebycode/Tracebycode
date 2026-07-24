@@ -1,44 +1,28 @@
 name: Generate Contribution Snake
 
-# Trigger the workflow automatically on a schedule and manually
 on:
   schedule:
     # Runs every day at midnight UTC
     - cron: "0 0 * * *"
   # Allows manual triggering from the Actions tab
   workflow_dispatch:
-  # Optional: Runs automatically whenever you push to the main branch
-  push:
-    branches:
-      - main
 
-# Define permissions required for reading code and pushing output to the branch
 permissions:
   contents: write
 
 jobs:
   generate:
-    permissions:
-      contents: write
     runs-on: ubuntu-latest
     timeout-minutes: 5
 
     steps:
-      # Step 1: Generate the contribution grid snake animations (light & dark theme)
+      # Generates SVGs directly onto the 'output' branch root with no subdirectories
       - name: Generate GitHub Contribution Snake
-        uses: Platane/snk/svg-only@v3
+        uses: Platane/snk@v3
         with:
           github_user_name: Tracebycode
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-      # Step 2: Deploy the generated files to the 'output' branch
-      # This action automatically creates the branch if it doesn't exist yet
-      - name: Deploy to Output Branch
-        uses: CrazyMax/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
+            github-contribution-grid-snake.svg
+            github-contribution-grid-snake-dark.svg?palette=github-dark
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
