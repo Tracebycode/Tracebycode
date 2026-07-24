@@ -20,7 +20,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
 
           # User
-          user: YOUR_GITHUB_USERNAME
+          user: Tracebycode
 
           # Output
           filename: github-metrics.svg
@@ -34,7 +34,7 @@ jobs:
 
           config_timezone: Asia/Kolkata
           config_theme: github_dark
-          config_display: large
+          config_display: medium
           config_octicon: yes
 
           ############################
@@ -53,7 +53,7 @@ jobs:
           ## Achievements           ##
           ############################
 
-          plugin_achievements: yes
+          plugin_achievements: no
           plugin_achievements_threshold: C
           plugin_achievements_secrets: no
           plugin_achievements_display: compact
