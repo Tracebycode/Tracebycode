@@ -29,22 +29,7 @@ Building backend systems, distributed services, and infrastructure with a focus 
 
 </div>
 
----
 
-## 🚀 Current Engineering Focus
-
-```text
-Backend Engineering
-├── Historical Market Data Platform
-├── Distributed Job Queue
-├── Trading Infrastructure
-├── AWS Cloud
-├── Linux Internals
-├── Kubernetes
-└── System Design
-```
-
----
 
 ## 📊 GitHub Dashboard
 
@@ -62,15 +47,7 @@ I enjoy designing backend systems that are reliable, observable, and resilient. 
 
 ---
 
-## 🐍 Contribution Graph
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-contribution-grid-snake.svg">
-    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-contribution-grid-snake.svg">
-  </picture>
-</p>
 
 ---
 
