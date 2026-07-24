@@ -23,6 +23,12 @@ Building reliable backend systems, distributed services, and cloud-native applic
   <img src="./github-metrics.svg" alt="GitHub Metrics" width="100%">
 </p>
 
-## Engineering Philosophy
+---
 
-I enjoy building systems that continue to work long after the API request has returned. My interests include distributed systems, background processing, cloud infrastructure, and production software engineering.
+# Engineering Philosophy
+
+I enjoy building backend systems that continue to operate long after the API request has returned.
+
+My interests lie in distributed systems, background processing, cloud infrastructure, automation, and production software engineering. I enjoy understanding how work flows through systems, how failures are handled, and how reliable software is built.
+
+I believe good engineering is not just about shipping features—it's about designing systems that are observable, maintainable, and resilient.
