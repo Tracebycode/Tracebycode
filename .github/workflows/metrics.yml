@@ -13,29 +13,74 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Generate Metrics
+      - name: Generate GitHub Metrics
         uses: lowlighter/metrics@latest
         with:
+          # GitHub Token
           token: ${{ secrets.METRICS_TOKEN }}
 
-          user: Tracebycode
+          # User
+          user: YOUR_GITHUB_USERNAME
 
+          # Output
           filename: github-metrics.svg
 
-          template: classic
+          ############################
+          ## General Configuration  ##
+          ############################
 
+          template: classic
           base: header, activity, community, repositories, metadata
 
           config_timezone: Asia/Kolkata
+          config_theme: github_dark
+          config_display: large
+          config_octicon: yes
+
+          ############################
+          ## Languages              ##
+          ############################
 
           plugin_languages: yes
           plugin_languages_limit: 8
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_sections: most-used
           plugin_languages_categories: programming
+          plugin_languages_recent_categories: programming
+          plugin_languages_recent_load: 300
 
-          plugin_isocalendar: yes
-
-          plugin_topics: yes
+          ############################
+          ## Achievements           ##
+          ############################
 
           plugin_achievements: yes
+          plugin_achievements_threshold: C
+          plugin_achievements_secrets: no
+          plugin_achievements_display: compact
+
+          ############################
+          ## Repository Topics      ##
+          ############################
+
+          plugin_topics: yes
+          plugin_topics_limit: 20
+          plugin_topics_mode: starred
+
+          ############################
+          ## Lines of Code          ##
+          ############################
 
           plugin_lines: yes
+
+          ############################
+          ## Follow-up             ##
+          ############################
+
+          plugin_followup: yes
+          plugin_followup_sections: repositories
+
+          ############################
+          ## Contribution Calendar ##
+          ############################
+
+          plugin_isocalendar: yes
