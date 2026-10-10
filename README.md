@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=220&section=header&text=Abhishek%20Barik&fontSize=48&fontColor=ffffff&fontAlignY=35&desc=Backend%20%7C%20Distributed%20Systems%20%7C%20Infrastructure&descSize=20&descAlignY=55&descAlign=50" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=190&section=header&text=Abhishek%20Barik&fontSize=44&fontColor=ffffff&fontAlignY=35&desc=Backend%20%7C%20Distributed%20Systems%20%7C%20Infrastructure&descSize=18&descAlignY=58&descAlign=50" width="100%"/>
 
-<br/>
+### Building backend systems that are **reliable, scalable & fast.**
 
 <a href="https://www.linkedin.com/in/abhishek-barik-735a911b1/">
 <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
@@ -11,146 +11,90 @@
 <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 <a href="https://github.com/Tracebycode">
-<img src="https://img.shields.io/badge/GitHub-111111?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+<a href="https://leetcode.com/">
+<img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/>
 </a>
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=Tracebycode&label=PROFILE%20VIEWS&color=2c5364&style=for-the-badge"/>
+<img src="https://komarev.com/ghpvc/?username=Tracebycode&label=PROFILE%20VIEWS&color=203a43&style=flat-square"/>
 
 </div>
 
 ---
+
+## 👨‍💻 About
+
+Computer Engineering student focused on **Backend Engineering, Distributed Systems and Infrastructure**.
+
+Currently working with **event-driven systems, market-data pipelines, Kubernetes and cloud infrastructure**, while going deeper into **C++, Linux, networking and high-performance systems**.
+
+> *Understand the system before using the abstraction.*
+
+---
+
+## ⚡ What I Build
 
 <div align="center">
 
-### `Backend Engineering` • `Distributed Systems` • `Infrastructure` • `High Performance`
+<table>
+<tr>
 
-**Building systems that are reliable, observable, event-driven and performance conscious.**
+<td align="center" width="33%">
+
+### ⚙️ Backend
+
+<img src="https://skillicons.dev/icons?i=nodejs,ts,python,postgres,redis" width="180"/>
+
+<br/>
+
+Distributed APIs  
+Job Queues  
+Concurrency  
+Data Systems
+
+</td>
+
+<td align="center" width="33%">
+
+### 📈 Trading Systems
+
+<img src="https://skillicons.dev/icons?i=python,kafka,postgres,redis" width="160"/>
+
+<br/>
+
+Market Data  
+Candle Pipelines  
+Indicators  
+Strategy Engines
+
+</td>
+
+<td align="center" width="33%">
+
+### ☸️ Infrastructure
+
+<img src="https://skillicons.dev/icons?i=linux,kubernetes,docker,gitlab,terraform" width="180"/>
+
+<br/>
+
+Kubernetes  
+CI/CD  
+Networking  
+Observability
+
+</td>
+
+</tr>
+</table>
 
 </div>
 
 ---
 
-## 🧑‍💻 `whoami`
-
-```text
-Abhishek Barik
-├── Computer Engineering @ D.Y. Patil Technical Campus
-├── Backend / Systems Engineering
-├── Distributed & Event-Driven Systems
-├── Infrastructure & Cloud-Native Engineering
-└── Exploring High-Performance & Trading Systems
-```
-
-I'm a **Computer Engineering student graduating in 2027**, focused on backend and systems engineering.
-
-My current work sits around the intersection of:
-
-```text
-        BACKEND
-           │
-           ▼
-   DISTRIBUTED SYSTEMS
-           │
-     ┌─────┴─────┐
-     ▼           ▼
- INFRASTRUCTURE  DATA SYSTEMS
-     │           │
-     └─────┬─────┘
-           ▼
-    HIGH PERFORMANCE
-```
-
-I enjoy understanding what happens **below the abstraction** — concurrency, memory, networking, queues, databases, processes, containers and distributed state.
-
----
-
-## ⚡ Current Engineering Focus
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 📈 Trading Infrastructure
-
-Building backend infrastructure around **market data and automated trading systems**.
-
-- Historical market-data pipelines
-- Multi-timeframe candle generation
-- Kafka event streaming
-- Redis live state
-- Indicator computation
-- Strategy execution
-- PostgreSQL data storage
-- Zero look-ahead / repainting prevention
-
-`Python` `Kafka` `PostgreSQL` `Redis`
-
-</td>
-
-<td width="50%" valign="top">
-
-### ⚙️ Distributed Job Systems
-
-Building a **distributed job queue and worker execution engine**.
-
-- Job scheduling
-- Worker execution
-- Retry & recovery
-- Dead-letter queues
-- Delayed jobs
-- Concurrency
-- Failure handling
-- Distributed state
-
-`Node.js` `TypeScript` `Redis`
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
-### ☸️ Infrastructure
-
-Working with production-style deployment infrastructure.
-
-- Kubernetes
-- Containerized services
-- GitLab CI/CD
-- Ingress
-- Linux
-- Terraform
-- Observability
-- Centralized logging
-
-`Kubernetes` `Linux` `GitLab` `Terraform`
-
-</td>
-
-<td width="50%" valign="top">
-
-### 🧠 Systems & Performance
-
-Deepening fundamentals that sit underneath backend systems.
-
-- C++
-- Data Structures & Algorithms
-- Operating Systems
-- Linux internals
-- Networking
-- Concurrency
-- Computer architecture
-- Performance engineering
-
-</td>
-</tr>
-</table>
-
----
-
-# 🏗️ Engineering Projects
+## 🚀 Featured Projects
 
 <div align="center">
 
@@ -176,287 +120,42 @@ Deepening fundamentals that sit underneath backend systems.
 
 ---
 
-## 🔬 Systems I've Worked On
-
-### 01 — Distributed Job Queue
-
-```text
-                    ┌──────────────┐
-                    │    Client    │
-                    └──────┬───────┘
-                           │
-                           ▼
-                    ┌──────────────┐
-                    │  Job Queue   │
-                    └──────┬───────┘
-                           │
-              ┌────────────┼────────────┐
-              ▼            ▼            ▼
-          Worker 1     Worker 2     Worker N
-              │            │            │
-              └────────────┼────────────┘
-                           ▼
-                    ┌──────────────┐
-                    │  Completed   │
-                    │ / Retry / DLQ│
-                    └──────────────┘
-```
-
-Focus:
-
-`Concurrency` `Retries` `Failure Recovery` `DLQ` `Workers` `Redis`
-
----
-
-### 02 — Market Data Pipeline
-
-```text
-       Market Data
-            │
-            ▼
-    ┌───────────────┐
-    │   Ingestion   │
-    └───────┬───────┘
-            │
-            ▼
-        ┌───────┐
-        │ Kafka │
-        └───┬───┘
-            │
-     ┌──────┴──────┐
-     ▼             ▼
-  Candle        Indicator
-  Engine          Engine
-     │             │
-     └──────┬──────┘
-            ▼
-       Strategy Engine
-            │
-            ▼
-      Signal Generation
-```
-
-Focus:
-
-`Event-Driven Architecture` `Kafka` `Redis` `PostgreSQL` `Indicators` `Trading`
-
----
-
-# 🧰 Technology Radar
+## 🛠️ Stack
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=cpp,python,typescript,javascript,nodejs,express,postgres,redis&perline=8&theme=dark"/>
+<img src="https://skillicons.dev/icons?i=cpp,python,ts,js,nodejs,express,postgres,redis,kafka&perline=9&theme=dark"/>
 
 <br/><br/>
 
-<img src="https://skillicons.dev/icons?i=kafka,docker,kubernetes,linux,git,gitlab,githubactions,terraform&perline=8&theme=dark"/>
-
-<br/><br/>
-
-<img src="https://skillicons.dev/icons?i=aws,prometheus,grafana,mongodb,react,nextjs,postman&perline=8&theme=dark"/>
+<img src="https://skillicons.dev/icons?i=kubernetes,docker,linux,git,githubactions,gitlab,terraform,aws,prometheus,grafana&perline=10&theme=dark"/>
 
 </div>
 
 ---
 
-# 🧠 What I'm Learning
-
-<table>
-<tr>
-<td>
-
-### Systems
-
-- Linux Internals
-- Operating Systems
-- Networking
-- Computer Architecture
-- Concurrency
-- Memory & Processes
-
-</td>
-
-<td>
-
-### Distributed Systems
-
-- Kafka
-- Redis
-- Message Queues
-- Fault Tolerance
-- Event-Driven Architecture
-- Distributed State
-
-</td>
-
-<td>
-
-### Performance
-
-- C++
-- DSA
-- Algorithms
-- CPU & Cache Behavior
-- Low-Level Optimization
-- High-Performance Systems
-
-</td>
-</tr>
-</table>
-
----
-
-# ☁️ Infrastructure
-
-```text
-Developer
-   │
-   ▼
-Git
-   │
-   ▼
-GitLab CI/CD
-   │
-   ├──────────────► Test
-   │
-   ├──────────────► Build
-   │
-   └──────────────► Deploy
-                         │
-                         ▼
-                    Kubernetes
-                         │
-              ┌──────────┼──────────┐
-              ▼          ▼          ▼
-           Backend     Jobs      Services
-              │          │          │
-              └──────────┼──────────┘
-                         ▼
-                 Observability
-                         │
-                    ┌────┴────┐
-                    ▼         ▼
-                   Loki     Grafana
-```
-
-Currently working with:
-
-`Kubernetes` `GitLab CI/CD` `Linux` `Terraform` `Podman` `AWS`
-
----
-
-# 📊 GitHub Activity
+## 📊 GitHub
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Tracebycode&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Activity" width="100%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Tracebycode&theme=tokyo-night&hide_border=true&area=true" width="100%"/>
 
-<br/><br/>
+<br/>
 
-<img src="https://github-readme-stats.vercel.app/api?username=Tracebycode&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&rank_icon=github" height="170"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Tracebycode&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&rank_icon=github" height="165"/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tracebycode&layout=compact&theme=tokyonight&hide_border=true" height="170"/>
-
-<br/><br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Tracebycode&theme=tokyonight&hide_border=true" height="170"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tracebycode&layout=compact&theme=tokyonight&hide_border=true" height="165"/>
 
 </div>
 
 ---
 
-# 🏆 GitHub Trophies
-
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=Tracebycode&theme=tokyonight&no-frame=true&no-bg=true&margin-w=5&column=7" width="100%"/>
+### Backend • Distributed Systems • Infrastructure • Performance
 
-</div>
+<br/>
 
----
-
-# 📊 Engineering Metrics
-
-<div align="center">
-
-<img src="./github-metrics.svg" width="98%" alt="GitHub Engineering Metrics"/>
-
-</div>
-
----
-
-# 🧭 Engineering Philosophy
-
-<div align="center">
-
-### `Understand the system before using the abstraction.`
-
-</div>
-
-I like asking questions such as:
-
-```text
-What actually happens inside the runtime?
-        ↓
-Where does the data go?
-        ↓
-Where is state stored?
-        ↓
-What happens when something fails?
-        ↓
-What happens under concurrency?
-        ↓
-Where does the latency come from?
-        ↓
-How does the system behave at scale?
-```
-
-For me, engineering isn't just about making something work.
-
-It's about understanding **why it works, how it fails, and how it behaves under pressure.**
-
----
-
-# 🎯 Long-Term Direction
-
-```text
-             Backend Engineering
-                     │
-                     ▼
-             Distributed Systems
-                     │
-             ┌───────┴───────┐
-             ▼               ▼
-       Infrastructure    Data Systems
-             │               │
-             └───────┬───────┘
-                     ▼
-             Systems Engineering
-                     │
-                     ▼
-          High-Performance Systems
-                     │
-                     ▼
-            Trading Infrastructure
-```
-
----
-
-<div align="center">
-
-## Let's Build Systems.
-
-<a href="https://github.com/Tracebycode">
-<img src="https://img.shields.io/badge/GitHub-Explore%20My%20Work-181717?style=for-the-badge&logo=github"/>
-</a>
-
-<a href="https://www.linkedin.com/in/abhishek-barik-735a911b1/">
-<img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin"/>
-</a>
-
-<br/><br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=110&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=100&section=footer" width="100%"/>
 
 </div>
