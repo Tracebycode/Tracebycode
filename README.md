@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=190&section=header&text=Abhishek%20Barik&fontSize=44&fontColor=ffffff&fontAlignY=35&desc=Backend%20%7C%20Distributed%20Systems%20%7C%20Infrastructure&descSize=18&descAlignY=58&descAlign=50" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1020,50:1D4ED8,100:38BDF8&height=190&section=header&text=Abhishek%20Barik&fontSize=44&fontColor=ffffff&fontAlignY=35&desc=Backend%20%7C%20Distributed%20Systems%20%7C%20Infrastructure&descSize=18&descAlignY=58&descAlign=50" width="100%" alt="Abhishek Barik"/>
 
 ### Building backend systems that are **reliable, scalable & fast.**
 
