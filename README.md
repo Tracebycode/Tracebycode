@@ -1,226 +1,97 @@
 <div align="center">
 
-# Hi, I'm Abhishek Barik 👋
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0e75b6,100:1b1f3b&height=180&section=header&text=Abhishek%20Barik&fontColor=ffffff&fontSize=46&fontAlignY=38&desc=Backend%20%26%20Systems%20Engineer&descAlignY=60&descSize=18" width="100%" alt="Abhishek Barik, Backend & Systems Engineer"/>
 
-### Backend & Systems Engineer
+<a href="https://github.com/Tracebycode">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3200&pause=900&color=0E75B6&center=true&vCenter=true&width=640&lines=Distributed+systems+%26+event-driven+pipelines;Market-data+%26+trading+infrastructure;Kafka+%C2%B7+Redis+%C2%B7+PostgreSQL+%C2%B7+Kubernetes;Understand+the+system+before+the+abstraction" alt="Typing animation"/>
+</a>
 
-I build **backend systems, distributed infrastructure, and event-driven applications** with a focus on performance, reliability, and understanding how systems work under the hood.
+<br/>
 
-<p>
-  <a href="https://github.com/Tracebycode">
-    <img src="https://komarev.com/ghpvc/?username=Tracebycode&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views"/>
-  </a>
-</p>
-
-<p>
-  <a href="https://github.com/Tracebycode">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-  <a href="https://linkedin.com/in/YOUR_LINKEDIN_USERNAME">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="mailto:YOUR_EMAIL@example.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
-</p>
+<a href="https://linkedin.com/in/YOUR_LINKEDIN_USERNAME"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="mailto:YOUR_EMAIL@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+<a href="https://github.com/Tracebycode?tab=repositories"><img src="https://img.shields.io/badge/Repositories-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repositories"/></a>
 
 </div>
 
 ---
 
-## 👨‍💻 About Me
+## 👋 About
 
-I'm a **Computer Engineering student** interested in backend engineering, distributed systems, infrastructure, and high-performance computing.
+Computer Engineering student who builds backend systems that stay correct under load and failure.
 
-Currently focused on:
+I work at the intersection of **event-driven architecture**, **data-intensive services**, and **market-data infrastructure**, and I like knowing *why* something works before I rely on the abstraction on top of it.
 
-- ⚙️ Building **backend services and distributed systems**
-- 📨 Designing **event-driven architectures with Kafka**
-- 🗄️ Working with **PostgreSQL, Redis and data-intensive systems**
-- ☸️ Learning and building production-style **Kubernetes infrastructure**
-- 🐧 Going deeper into **Linux, networking and system internals**
-- 🔄 Building reliable **CI/CD and deployment pipelines**
-- 📈 Exploring **algorithmic trading infrastructure and market-data systems**
-- 💻 Strengthening **C++, DSA and computer science fundamentals**
-
-I prefer understanding **why a system works** before learning how to use its abstractions.
+|  |  |
+|---|---|
+| 🔭 **Building** | A distributed job queue, a market-data and strategy engine, and a Kubernetes lab |
+| 🌱 **Going deeper on** | Linux internals, networking, concurrency, C++ and CPU/cache behavior |
+| 💬 **Ask me about** | Kafka, Redis-backed state, retries and dead-letter queues, look-ahead-free backtesting |
 
 ---
 
-## 🧠 Engineering Interests
-
-```text
-Backend Engineering
-        │
-        ├── Distributed Systems
-        │     ├── Event-Driven Architecture
-        │     ├── Message Queues
-        │     ├── Concurrency
-        │     └── Fault Tolerance
-        │
-        ├── Infrastructure
-        │     ├── Linux
-        │     ├── Kubernetes
-        │     ├── CI/CD
-        │     └── Networking
-        │
-        ├── Data Systems
-        │     ├── PostgreSQL
-        │     ├── Redis
-        │     └── Kafka
-        │
-        └── High Performance Systems
-              ├── C++
-              ├── Algorithms
-              ├── Low-Level Systems
-              └── Trading Infrastructure
-```
-
----
-
-## 🛠️ Tech Stack
-
-### Languages
-
-<p>
-<img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"/>
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-</p>
-
-### Backend
-
-<p>
-<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white"/>
-<img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white"/>
-<img src="https://img.shields.io/badge/REST%20APIs-02569B?style=for-the-badge"/>
-</p>
-
-### Databases & Messaging
-
-<p>
-<img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"/>
-<img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"/>
-<img src="https://img.shields.io/badge/Apache%20Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white"/>
-<img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
-</p>
-
-### Infrastructure & DevOps
-
-<p>
-<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
-<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"/>
-<img src="https://img.shields.io/badge/Podman-892CA0?style=for-the-badge&logo=podman&logoColor=white"/>
-<img src="https://img.shields.io/badge/GitLab%20CI/CD-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white"/>
-<img src="https://img.shields.io/badge/Terraform-844FBA?style=for-the-badge&logo=terraform&logoColor=white"/>
-</p>
-
-### Tools
-
-<p>
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-<img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/>
-<img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white"/>
-</p>
-
----
-
-## 🚀 What I'm Building
-
-### ⚡ Distributed Job Queue & Worker Engine
-
-A backend execution system designed around reliable asynchronous job processing.
-
-**Focus areas:**
-
-- Job queues
-- Worker execution
-- Retry mechanisms
-- Dead-letter queues
-- Failure recovery
-- Delayed jobs
-- Concurrency
-- Redis-backed distributed state
-
-**Stack:** `Node.js` `TypeScript` `Redis` `PostgreSQL`
-
----
-
-### 📈 Market Data & Trading Infrastructure
-
-Building infrastructure for historical and real-time market data processing.
-
-The system explores:
-
-- Historical candle ingestion
-- Multi-timeframe candle generation
-- Real-time market-data pipelines
-- Kafka-based event streaming
-- Redis-based live state
-- Indicator computation
-- Strategy execution
-- Zero look-ahead / repainting prevention
-- High-throughput backend processing
-
-**Stack:** `Python` `PostgreSQL` `Kafka` `Redis`
-
----
-
-### ☸️ Cloud-Native Infrastructure
-
-Building and experimenting with production-style infrastructure around:
-
-- Kubernetes
-- Containerized services
-- GitLab CI/CD
-- Infrastructure automation
-- Ingress and service networking
-- Centralized logging
-- Observability
-- Linux systems
-
----
-
-## 📚 Currently Learning
+## 🚀 Featured Projects
 
 <table>
 <tr>
-<td>
+<td width="50%" valign="top">
 
-### Systems
+### ⚡ Distributed Job Queue & Worker Engine
+Reliable async job processing built for failure.
 
-- Linux Internals
-- Networking
-- Operating Systems
-- Concurrency
-- Distributed Systems
-- Computer Architecture
+- Retries with backoff and dead-letter queues
+- Delayed jobs and failure recovery
+- Concurrent workers, Redis-backed distributed state
+- Durable job records in PostgreSQL
 
-</td>
-<td>
+`Node.js` `TypeScript` `Redis` `PostgreSQL`
 
-### Backend
-
-- Node.js Internals
-- PostgreSQL
-- Redis
-- Kafka
-- Event-Driven Architecture
-- System Design
+[**View repo →**](#) <!-- add link -->
 
 </td>
-<td>
+<td width="50%" valign="top">
 
-### Performance
+### 📈 Market Data & Trading Engine
+Historical and real-time market-data processing.
 
-- C++
-- Data Structures & Algorithms
-- Memory Management
-- CPU / Cache Behavior
-- Low-Level Optimization
-- High-Performance Systems
+- Historical candle ingestion
+- Multi-timeframe candle generation
+- Kafka event streaming, Redis live state
+- Indicators and strategy execution with **zero look-ahead / repainting**
+
+`Python` `Kafka` `Redis` `PostgreSQL`
+
+[**View repo →**](#) <!-- add link -->
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### ☸️ Kubernetes Infrastructure Lab
+Production-style cloud-native setup.
+
+- Containerized services and ingress/service networking
+- GitLab CI/CD pipelines
+- Centralized logging and observability
+- Infrastructure automation with Terraform
+
+`Kubernetes` `Linux` `GitLab CI/CD` `Terraform`
+
+[**View repo →**](#) <!-- add link -->
+
+</td>
+<td width="50%" valign="top">
+
+### 📞 Asterisk VoIP System
+Real-time voice communication for low-bandwidth networks.
+
+- Call handling on constrained links
+- Containerized deployment
+
+`Asterisk` `Linux` `Docker`
+
+[**View repo →**](#) <!-- add link -->
 
 </td>
 </tr>
@@ -228,19 +99,60 @@ Building and experimenting with production-style infrastructure around:
 
 ---
 
-## 📊 GitHub Activity
+## 🧩 How the Market Data Engine Fits Together
 
-<div align="center">
+```mermaid
+flowchart LR
+    A[Historical data] --> C[Candle ingestion]
+    B[Live market feed] --> K[(Kafka)]
+    C --> P[(PostgreSQL)]
+    K --> T[Multi-timeframe<br/>candle builder]
+    T --> R[(Redis<br/>live state)]
+    T --> P
+    R --> I[Indicators]
+    I --> S[Strategy engine]
+    S --> O[Signals / orders]
+```
 
-<img src="./github-metrics.svg" alt="GitHub Metrics" width="100%"/>
+Strategies only ever see **closed** candles, so signals can't repaint or peek at future data.
 
-<br/>
+---
 
-<img src="https://github-readme-stats.vercel.app/api?username=Tracebycode&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="170"/>
+## 🛠️ Tech Stack
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tracebycode&layout=compact&theme=tokyonight&hide_border=true" height="170"/>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=cpp,py,ts,js,nodejs,express&perline=6" alt="Languages and backend"/>
+  <br/>
+  <img src="https://skillicons.dev/icons?i=postgres,redis,kafka,mongodb&perline=4" alt="Data and messaging"/>
+  <br/>
+  <img src="https://skillicons.dev/icons?i=linux,kubernetes,docker,gitlab,terraform,aws&perline=6" alt="Infrastructure"/>
+  <br/>
+  <img src="https://skillicons.dev/icons?i=git,github,postman&perline=3" alt="Tools"/>
+</p>
 
-</div>
+<details>
+<summary><b>Full list</b></summary>
+
+| | |
+|---|---|
+| **Languages** | C++ · Python · TypeScript · JavaScript |
+| **Backend** | Node.js · Express · REST APIs |
+| **Data & messaging** | PostgreSQL · Redis · Kafka · MongoDB |
+| **Infra & DevOps** | Linux · Kubernetes · Podman · GitLab CI/CD · Terraform · AWS |
+| **Tools** | Git · GitHub · Postman |
+
+</details>
+
+---
+
+## 📚 Currently Learning
+
+| Systems | Backend | Performance |
+|---|---|---|
+| Linux internals | Kafka | C++ |
+| Networking | PostgreSQL internals | Memory management |
+| Operating systems | Node.js internals | CPU / cache behavior |
+| Concurrency | System design | Data structures & algorithms |
 
 ---
 
@@ -248,62 +160,28 @@ Building and experimenting with production-style infrastructure around:
 
 > **Understand the system before using the abstraction.**
 
-I'm particularly interested in questions like:
+<details>
+<summary><b>Questions I keep coming back to</b></summary>
 
 - What actually happens inside the runtime?
-- How does data move through a distributed system?
 - Where does latency come from?
-- What happens when a service fails?
+- What happens when a service fails halfway through a job?
 - How do we guarantee correctness under concurrency?
-- How does the operating system interact with our application?
 - How can a system scale without becoming fragile?
 
-The goal isn't just to make software work.
-
-**The goal is to understand why it works.**
+</details>
 
 ---
 
-## 📌 Selected Projects
-
-| Project | What it explores | Technologies |
-|---|---|---|
-| Distributed Job Queue | Async execution, retries, workers & fault tolerance | `Node.js` `TypeScript` `Redis` |
-| Market Data Engine | Historical & real-time market data processing | `Python` `Kafka` `PostgreSQL` |
-| Trading Strategy Engine | Event-driven strategy execution | `Python` `Kafka` `Redis` |
-| Kubernetes Infrastructure | Container orchestration & service networking | `Kubernetes` `Linux` `CI/CD` |
-| Asterisk VoIP System | Low-network communication & real-time systems | `Asterisk` `Linux` `Docker` |
-
----
-
-## 📈 Problem Solving
-
-I actively work on:
-
-- Data Structures & Algorithms
-- Competitive Programming
-- System Design
-- Backend Engineering
-- Low-Level Computer Science
-
-<a href="https://leetcode.com/">
-  <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/>
-</a>
-
----
-
-## 🤝 Let's Connect
-
-I'm interested in **backend engineering, distributed systems, infrastructure, high-performance computing, and trading systems**.
-
-<p align="center">
-  <a href="https://github.com/Tracebycode">GitHub</a> •
-  <a href="https://linkedin.com/in/YOUR_LINKEDIN_USERNAME">LinkedIn</a> •
-  <a href="mailto:YOUR_EMAIL@example.com">Email</a>
-</p>
+## 📊 GitHub Activity
 
 <div align="center">
 
-### ⭐ If you find something useful here, consider starring the repository.
+<img src="https://github-readme-stats.vercel.app/api?username=Tracebycode&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165" alt="GitHub stats"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tracebycode&layout=compact&theme=tokyonight&hide_border=true" height="165" alt="Top languages"/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Tracebycode&theme=tokyonight&hide_border=true" height="165" alt="Contribution streak"/>
 
 </div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1b1f3b,100:0e75b6&height=90&section=footer" width="100%" alt=""/>
