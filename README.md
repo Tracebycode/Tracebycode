@@ -102,8 +102,8 @@ Observability
 <img src="https://github-readme-stats.vercel.app/api/pin/?username=Tracebycode&repo=Job-queue-distribution-system&theme=tokyonight&hide_border=true" width="48%"/>
 </a>
 
-<a href="https://github.com/Tracebycode/stockmarket-Backtesting-Engine">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Tracebycode&repo=stockmarket-Backtesting-Engine&theme=tokyonight&hide_border=true" width="48%"/>
+<a href="https://github.com/Tracebycode/Aegis">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=Tracebycode&repo=Aegis&theme=tokyonight&hide_border=true" width="48%"/>
 </a>
 
 <br/>
