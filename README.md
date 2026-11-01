@@ -98,25 +98,34 @@ Observability
 
 <div align="center">
 
-<a href="https://github.com/Tracebycode/Job-queue-distribution-system">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Tracebycode&repo=Job-queue-distribution-system&theme=tokyonight&hide_border=true" width="48%"/>
+<a href="https://github.com/Tracebycode/Neuroserve">
+<img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=Tracebycode&repo=Neuroserve&theme=tokyonight&hide_border=true" width="48%"/>
 </a>
 
 <a href="https://github.com/Tracebycode/Aegis">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Tracebycode&repo=Aegis&theme=tokyonight&hide_border=true" width="48%"/>
+<img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=Tracebycode&repo=Aegis&theme=tokyonight&hide_border=true" width="48%"/>
 </a>
 
 <br/>
 
-<a href="https://github.com/Tracebycode/Asha-Ehr-Backend-">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Tracebycode&repo=Asha-Ehr-Backend-&theme=tokyonight&hide_border=true" width="48%"/>
+<a href="https://github.com/Tracebycode/Distributed-Job-Queue">
+<img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=Tracebycode&repo=Distributed-Job-Queue&theme=tokyonight&hide_border=true" width="48%"/>
 </a>
 
-<a href="https://github.com/Tracebycode/Task-Management-Navicon-Infraprojects-">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Tracebycode&repo=Task-Management-Navicon-Infraprojects-&theme=tokyonight&hide_border=true" width="48%"/>
+<a href="https://github.com/Tracebycode/Stock-x-change-Matching-engine">
+<img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=Tracebycode&repo=Stock-x-change-Matching-engine&theme=tokyonight&hide_border=true" width="48%"/>
 </a>
 
 </div>
+
+<br/>
+
+| Project | Stack & Domain | Key Architecture Highlights |
+| :--- | :--- | :--- |
+| [**NeuroServe**](https://github.com/Tracebycode/Neuroserve) | `C++20` • `AI Systems` • `Concurrency` | High-performance inference serving engine featuring bounded queueing, dynamic batching, worker thread pooling, and adaptive load shedding. |
+| [**Aegis**](https://github.com/Tracebycode/Aegis) | `C++20` • `Linux` • `epoll` | Concurrent in-memory key-value store with an `epoll` Multi-Reactor, RESP2 wire protocol compatibility, lock-striped sharded storage, and dual persistence (AOF & snapshotting). |
+| [**Distributed Job Queue**](https://github.com/Tracebycode/Distributed-Job-Queue) | `C++20` • `PostgreSQL 16` • `Distributed Systems` | Reliable distributed task execution engine with transactional job polling, thread pool concurrency, failure recovery, and bounded execution queues. |
+| [**Stock Exchange Matching Engine**](https://github.com/Tracebycode/Stock-x-change-Matching-engine) | `C++` • `Trading Systems` • `Data Structures` | Order book matching engine simulating exchange operations with low-latency price-time priority order matching. |
 
 ---
 
@@ -142,9 +151,9 @@ Observability
 
 <br/>
 
-<img src="https://github-readme-stats.vercel.app/api?username=Tracebycode&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&rank_icon=github" height="165"/>
+<img src="https://github-readme-stats-fast.vercel.app/api?username=Tracebycode&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" height="165"/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tracebycode&layout=compact&theme=tokyonight&hide_border=true" height="165"/>
+<img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Tracebycode&layout=compact&theme=tokyonight&hide_border=true" height="165"/>
 
 </div>
 
