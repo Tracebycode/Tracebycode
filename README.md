@@ -101,7 +101,6 @@ Observability
 <a href="https://github.com/Tracebycode/Neuroserve">
 <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=Tracebycode&repo=Neuroserve&theme=tokyonight&hide_border=true" width="48%"/>
 </a>
-
 <a href="https://github.com/Tracebycode/Aegis">
 <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=Tracebycode&repo=Aegis&theme=tokyonight&hide_border=true" width="48%"/>
 </a>
@@ -111,7 +110,6 @@ Observability
 <a href="https://github.com/Tracebycode/Distributed-Job-Queue">
 <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=Tracebycode&repo=Distributed-Job-Queue&theme=tokyonight&hide_border=true" width="48%"/>
 </a>
-
 <a href="https://github.com/Tracebycode/Stock-x-change-Matching-engine">
 <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=Tracebycode&repo=Stock-x-change-Matching-engine&theme=tokyonight&hide_border=true" width="48%"/>
 </a>
@@ -120,12 +118,31 @@ Observability
 
 <br/>
 
-| Project | Stack & Domain | Key Architecture Highlights |
-| :--- | :--- | :--- |
-| [**NeuroServe**](https://github.com/Tracebycode/Neuroserve) | `C++20` • `AI Systems` • `Concurrency` | High-performance inference serving engine featuring bounded queueing, dynamic batching, worker thread pooling, and adaptive load shedding. |
-| [**Aegis**](https://github.com/Tracebycode/Aegis) | `C++20` • `Linux` • `epoll` | Concurrent in-memory key-value store with an `epoll` Multi-Reactor, RESP2 wire protocol compatibility, lock-striped sharded storage, and dual persistence (AOF & snapshotting). |
-| [**Distributed Job Queue**](https://github.com/Tracebycode/Distributed-Job-Queue) | `C++20` • `PostgreSQL 16` • `Distributed Systems` | Reliable distributed task execution engine with transactional job polling, thread pool concurrency, failure recovery, and bounded execution queues. |
-| [**Stock Exchange Matching Engine**](https://github.com/Tracebycode/Stock-x-change-Matching-engine) | `C++` • `Trading Systems` • `Data Structures` | Order book matching engine simulating exchange operations with low-latency price-time priority order matching. |
+### 📌 Project Spotlights & Architecture
+
+#### 🧠 [NeuroServe](https://github.com/Tracebycode/Neuroserve)
+> **High-Performance C++20 AI Inference Serving System**
+* **Core Focus:** Concurrent networking, bounded queueing, and low-latency inference dispatch.
+* **Architecture Highlights:** Non-blocking HTTP server, bounded RAII promise queue with adaptive dynamic batching, worker thread pooling, and automated load shedding (HTTP 429 backpressure).
+* **Tech Stack:** `C++20` • `Multithreading` • `Systems Programming` • `CMake`
+
+#### 🛡️ [Aegis](https://github.com/Tracebycode/Aegis)
+> **High-Performance Concurrent In-Memory Key-Value Store**
+* **Core Focus:** Low-latency caching engine compatible with the Redis ecosystem.
+* **Architecture Highlights:** Linux `epoll` Multi-Reactor network I/O (`SO_REUSEPORT`), zero-copy RESP2 wire protocol parser (plug-and-play with `redis-cli`), lock-striped sharded hash table eliminating false sharing, two-tier TTL expiration subsystem, and pluggable persistence (AOF & binary point-in-time snapshots).
+* **Tech Stack:** `C++20` • `Linux epoll` • `RESP2 Protocol` • `Concurrency`
+
+#### ⚙️ [Distributed Job Queue](https://github.com/Tracebycode/Distributed-Job-Queue)
+> **Fault-Tolerant Distributed Task Execution Engine**
+* **Core Focus:** Mission-critical backend infrastructure coordinating distributed task workers.
+* **Architecture Highlights:** Atomic transactional job polling (`FOR UPDATE SKIP LOCKED`) backed by PostgreSQL 16, lease-based visibility timeouts, exponential backoff retries with full jitter, isolated Dead-Letter Queue (DLQ), and Prometheus-compatible metrics.
+* **Tech Stack:** `C++20` • `PostgreSQL 16` • `Distributed Systems` • `Connection Pooling`
+
+#### 📈 [Stock Exchange Matching Engine](https://github.com/Tracebycode/Stock-x-change-Matching-engine)
+> **Low-Latency Order Book Matching Engine**
+* **Core Focus:** Financial trading infrastructure simulating exchange-grade trade execution.
+* **Architecture Highlights:** Limit order book maintaining strict price-time priority (`FIFO`), order book depth tracking, and atomic matching for high-throughput market simulation.
+* **Tech Stack:** `C++` • `Data Structures` • `Trading Systems` • `Algorithms`
 
 ---
 
